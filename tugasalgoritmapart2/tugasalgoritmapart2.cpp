@@ -35,7 +35,7 @@ void insertionSort() {
         while (j >= 0 && arr[j] > temp) // langkah keempat
         {
             arr[j + 1] = arr[j]; // langkah keempat bagian A
-            j = j - 1; // langkah 4 bagian B
+            j = j - 1; // langkah keempat bagian B
         }
         arr[j + 1] = temp; // langkah 5
 
